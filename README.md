@@ -5,7 +5,8 @@
 🔗[Nathalia França](https://github.com/nathrfranca)\
 🔗[Luan Victor](https://github.com/LuanME)
 
-*## METec*
-Loja Virtual na parte de Tecnologia
+## METec
+*Loja Virtual na parte de Tecnologia*
 ## Horário
-08:00
+*08:00*
+
