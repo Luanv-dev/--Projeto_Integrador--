@@ -1,7 +1,7 @@
 # Primeira entrega - Wireflame e Flowchart
-Essa uma ideia básica e inicial do que gostaríamos de fazer no site, que é um e-commerce que vende computadores e acessórios.
+Essa uma ideia básica e inicial do que gostaríamos de fazer no site, que é um e-commerce que realiza a venda de computadores e acessórios.
 
-A princício, gostaríamos de um site minimalista, objetivo e completo. Que esteja preparado para atender todas as necessidades que um cliente poderia ter.
+A princípio, gostaríamos de um site minimalista, objetivo e completo. Que esteja preparado para atender todas as necessidades que um cliente poderia ter e também que possamos colocar em prática todo o conteúdo que estamos aprendendo no curso Web Dev.Full Stack da Digital House.
 
 ## Aqui estão algumas das telas que projetamos:
 **Página principal** ![Wireframe_page-0001](https://user-images.githubusercontent.com/101422055/177823059-97be77a1-58ac-4b61-8937-c3dffa5008a1.jpg)
