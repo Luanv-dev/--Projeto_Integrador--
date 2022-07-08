@@ -6,7 +6,6 @@
 🔗[Nathalia França](https://github.com/nathrfranca)\
 🔗[Luan Victor](https://github.com/LuanME)  
 *Loja Virtual de Tecnologia*
-## Horário
+## Horário da Reunião
 *08:00*
-## 
 
