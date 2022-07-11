@@ -1,0 +1,22 @@
+create table produtos(
+	id int primary key identity,
+	nome varchar(50) not null,
+	descricao varchar(140) not null,
+	preco decimal not null,
+);
+
+create table usuario(
+	id int primary key identity,
+	nome varchar(50) not null,
+	senha int not null
+);
+
+insert into produtos (nome, descricao, preco)values ('Teclado', 'Teclado Games 30',100.0 );
+insert into produtos (nome, descricao, preco)values ('Notebooks', 'Dell 124',1000.0 ),
+('Teclado', 'Teclado Games 50',100.0 ),
+('Monitor Dell', 'Monitor 32',100.0 ),
+('Teclado', 'Teclado Games 30',100.0 );
+
+select * from produtos;
+
+insert into usuario(nome, senha)values ('admin',123);
