@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luans\\Documents\\--Projeto_Integrador--\\3 - Sprint(ApI)\\MEtechnology\\MEtechnology\\MEtechnology.csproj": {}
+    "C:\\Users\\luans\\source\\repos\\MEtechnology\\MEtechnology\\MEtechnology.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luans\\Documents\\--Projeto_Integrador--\\3 - Sprint(ApI)\\MEtechnology\\MEtechnology\\MEtechnology.csproj": {
+    "C:\\Users\\luans\\source\\repos\\MEtechnology\\MEtechnology\\MEtechnology.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luans\\Documents\\--Projeto_Integrador--\\3 - Sprint(ApI)\\MEtechnology\\MEtechnology\\MEtechnology.csproj",
+        "projectUniqueName": "C:\\Users\\luans\\source\\repos\\MEtechnology\\MEtechnology\\MEtechnology.csproj",
         "projectName": "MEtechnology",
-        "projectPath": "C:\\Users\\luans\\Documents\\--Projeto_Integrador--\\3 - Sprint(ApI)\\MEtechnology\\MEtechnology\\MEtechnology.csproj",
+        "projectPath": "C:\\Users\\luans\\source\\repos\\MEtechnology\\MEtechnology\\MEtechnology.csproj",
         "packagesPath": "C:\\Users\\luans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luans\\Documents\\--Projeto_Integrador--\\3 - Sprint(ApI)\\MEtechnology\\MEtechnology\\obj\\",
+        "outputPath": "C:\\Users\\luans\\source\\repos\\MEtechnology\\MEtechnology\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luans\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,9 +58,9 @@
               "target": "Package",
               "version": "[6.0.7, )"
             },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.7, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
