@@ -12,3 +12,6 @@
 
 *08:00*
 
+## Alguns sites úteis e importantes
+
+> ### [How to Create and Validate Modern Web Forms with HTML5](https://www.freecodecamp.org/news/create-and-validate-modern-web-forms-html5/)
