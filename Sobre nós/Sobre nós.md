@@ -1,17 +1,7 @@
-![image](https://user-images.githubusercontent.com/106767564/178024330-3f7b36d8-a161-4411-9a6d-42db4c14b697.png)  
-# :pushpin: Projeto_Integrador
-## Componentes  :fist:
-🔗[Beatriz Friso](https://github.com/beatrizfriso)\
-🔗[Martinelli](https://github.com/martinelli105)\
-🔗[Nathalia França](https://github.com/nathrfranca)\
-🔗[Luan Victor](https://github.com/LuanME)\
-🔗[Cassio Freitas](https://github.com/cassiofreitas)
 
-*Loja Virtual de Tecnologia*
-## Horário da Reunião :alarm_clock:
+# Sobre nós
 
-*08:00*
-
-## Alguns sites úteis e importantes
-
-> ### [How to Create and Validate Modern Web Forms with HTML5](https://www.freecodecamp.org/news/create-and-validate-modern-web-forms-html5/)
+ Somos uma plataforma de comércio eletrônico, voltada exclusivamente para notebooks, celulares e acessórios. Procuramos além de satisfazer suas necessidades, agregar valor à sua compra e tornar esse relacionamento cada vez mais constante e duradouro.
+ Nossos fornecedores se posicionam entre os mais qualificados no mercado, o que nos permite oferecer produtos e serviços de excelência e com os melhores preços. 
+Novidades, lançamentos e promoções exclusivas você encontra aqui, além de total segurança e rapidez na entrega.
+ Venha para o Metechnology, aqui você encontra qualidade, preço e  nosso compromisso de fazer dessa experiência um diferencial para você e sua empresa.
