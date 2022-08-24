@@ -7,3 +7,5 @@ rapidamente com menor consumo de energia. Com maior autonomia de bateria, maior 
 maior velocidade quando comparado aos modelos de 10ª geração Intel Core. Destaque para as
 placas gráficas Iris Xe (Core i5 e Core I7), situadas junto ao processador, mas com desempenho de
 placa dedicada
+
+https://www.youtube.com/watch?v=DMUJzWMSRBA
