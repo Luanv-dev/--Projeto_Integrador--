@@ -5,7 +5,7 @@
 🔗[Martinelli](https://github.com/martinelli105)\
 🔗[Nathalia França](https://github.com/nathrfranca)\
 🔗[Luan Victor](https://github.com/LuanME)\
-🔗[Cassio Freitas](https://github.com/cassiofreitas)
+
 
 *Loja Virtual de Tecnologia*
 ## Horário da Reunião :alarm_clock:
