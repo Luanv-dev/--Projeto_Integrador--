@@ -4,7 +4,7 @@
 🔗[Beatriz Friso](https://github.com/beatrizfriso)\
 🔗[Martinelli](https://github.com/martinelli105)\
 🔗[Nathalia França](https://github.com/nathrfranca)\
-🔗[Luan Victor](https://github.com/LuanME)\
+🔗[Luan Victor](https://github.com/LuanME)
 
 
 *Loja Virtual de Tecnologia*
