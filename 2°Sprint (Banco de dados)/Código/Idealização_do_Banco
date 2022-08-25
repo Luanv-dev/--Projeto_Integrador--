@@ -27,4 +27,6 @@ create table login(
 
 insert into produtos (nome, descricao, preco, review, imagem, nome_classe) 
 values ('AirPods Max', 'Os AirPods Max reimaginam completamente os fones de ouvido circum-auriculares. O driver dinâmico criado pela Apple oferece áudio imersivo de alta fidelidade. O design foi pensado para um ajuste impecável em cada detalhe, do arco às almofadas.',
-'5.443,33', 'https://www.youtube.com/watch?v=y8rF7fS2T80', 'https://user-images.githubusercontent.com/106767564/186738134-d3255865-8977-472b-82b5-169973ca3cc5.jpg', 'Acessório')
+'R$ 5.443,33', 'https://www.youtube.com/watch?v=y8rF7fS2T80', 'https://user-images.githubusercontent.com/106767564/186738134-d3255865-8977-472b-82b5-169973ca3cc5.jpg', 'Acessórios'),
+('Mouse', 'Mini Mouse sem Fio Logitech M187, Design Ambidestro Conexão USB e Pilha Inclusa', 'R$ 72,90', 'https://www.youtube.com/watch?v=tlC-AJNSeKU', 'https://user-images.githubusercontent.com/95322416/186740424-39918b07-134e-47c7-ad2a-058553a1eb95.png', 'Acessórios'),
+('Teclado', 'Combo Teclado e Mouse sem fio Logitech MK235 com Conexão USB Pilhas Inclusas e Layout ABNT2', 'R$ 149,99', 'https://www.youtube.com/watch?v=Zu1zh1u1N1k', 'https://user-images.githubusercontent.com/95322416/186742216-99da33e8-c75d-4e37-ac5f-dbca843fced2.png', 'Acessórios');
