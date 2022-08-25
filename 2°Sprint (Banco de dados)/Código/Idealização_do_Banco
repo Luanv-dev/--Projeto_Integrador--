@@ -1,34 +1,27 @@
 create database Projeto;
+
 create table classe_produto(
-	classe varchar(60) primary key
+	id int primary key identity,
+	classe varchar(60) not null
 );
+
 create table produtos(
 	id int primary key identity,
 	nome varchar(50) not null,
 	descricao varchar(140) not null,
 	preco decimal not null,
+	review varchar(140) null,
+	imagem varchar(140) not null,
 	nome_classe varchar(60)
+	
 
-	constraint FK_marca_produto foreign key (nome_classe) references classe_produto(classe)
+	constraint FK_marca_produto foreign key (nome_classe) references classe_produto(id)
 
 );
 
 create table login(
 	id int primary key identity,
 	usuario varchar(50) not null,
-    senha varchar(8)not null
+	senha varchar(8) not null
 );
 
-insert into classe_produto(classe)values 
-('Notebook'),
-('Celular'),
-('Acessorios');
-
-insert into produtos(nome, descricao, preco, nome_classe) values
-('Book Intel Core i3 4GB', 'nd', 2.564, 'Notebook'),
-('Usb', 'nd', 1500, 'Acessorios'),
-('Fone de Ouvido', 'nd', 1000, 'Acessorios'),
-('M31', 'nd', 1.079, 'Celular'),
-('Book Intel Core i5 4GB', 'nd', 3.564, 'Notebook');
-
-insert into login(usuario, senha) values ('admin', '1a2b3c');
