@@ -8,9 +8,6 @@
 
 
 *Loja Virtual de Tecnologia*
-## Horário da Reunião :alarm_clock:
-
-*08:00*
 
 ## Alguns sites úteis e importantes
 
