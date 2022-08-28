@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+  background-image: url("/Tela_Principal/Imagens/fundo.jpg");
+  background-size: cover;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+
+.form-signin {
+  max-width: 340px;
+  padding: 0px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="usuario"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="senha"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.mensagem {
+  display: none;
+  margin-top: 30px;
+}
+
+#botaoEntrar{
+    background-color: #9671f1;
+}
+#novoUsuario{
+    color: #9671f1;
+}
+#Voltar{
+    color: #9671f1;
+}

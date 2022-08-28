@@ -1,0 +1,282 @@
+
+@keyframes float{
+    0% {
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navMenu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:1;
+}
+
+
+#mudarCor{
+    color: white;
+    transition: 0.5s ease;
+}
+#mudarCor:hover{
+    background-color: #9671f1;
+}
+#controleHr{
+    margin-top: 2px;
+	border: 1px solid; 
+	border-color: Grey;
+}
+
+/* Texto Apresentacao Empresa */
+#divApresentacaoEmpresa{
+    margin-top: 75px;
+    
+}
+
+/*Pesquisa*/
+.search-box{
+   background-color: #0a1b2d; 
+   border-radius: 40px;
+   height: 40px;
+   padding: 8px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #f0f5f6;
+    font-size: 16px;
+    line-height: 30px;
+    width: 0;
+    transition: .5s;
+   
+    
+}
+
+.search-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #0a1b2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.search-box:hover > .search-text{
+    width: 230px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background-color: #9671f1;
+}
+
+
+/*Apresentacao da empresa*/
+
+.apresentacao-container{
+    width: 100%;
+    height: 60vh;
+    background-image: url("/Tela_Principal/Imagens/fundo.jpg");
+    background-size: cover;
+    box-shadow: 50px 5px 25px Grey;
+  
+}
+#olaSejaBemVindo{
+    font-family: 'DynaPuff', cursive;
+    font-size: 38px;
+    
+}
+/* Janela de navegação produtos*/
+.navJanela{
+    margin-top: 99px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+#janelasNavegacao{
+
+    color: black;
+    transition: 0.3s ease;
+}
+#janelasNavegacao:hover{
+    color: #703af7;
+}
+
+/*  */
+#clickProdutos{
+    font-size: 50px;
+}
+
+/* Produto*/
+#produtos-cards{
+    margin-top: 70px;
+    
+}
+#produtos-cards .card{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.efeito{
+    height: 20vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.efeito .bar-1, .bar-2, .bar-3, .bar-4, .bar-5, .bar-6, .bar-7{
+    width: 8px;
+    height: 0;
+    border-radius: 8px ;
+    margin-right: 8px;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.bar-1{
+    background: linear-gradient(0deg, #9f6bff 0%, #ff34d2 40%);
+    animation-name: animation-bar-1;
+}
+.bar-2{
+    background: linear-gradient(0deg, #9f6bff 5%, #ff34d2 50%);
+    animation-name: animation-bar-2;
+}
+.bar-3{
+    background: linear-gradient(0deg, #ff34d2 10%, #9f6bff 60%);
+    animation-name: animation-bar-3;
+}
+.bar-4{
+    background: linear-gradient(0deg, #ff34d2 15%, #9f6bff 70%);
+    animation-name: animation-bar-4;
+}
+.bar-5{
+    background: linear-gradient(0deg, #ff34d2 20%, #9f6bff 80%);
+    animation-name: animation-bar-5;
+}
+.bar-6{
+    background: linear-gradient(0deg, #ff34d2 25%, #9f6bff 90%);
+    animation-name: animation-bar-6;
+}
+.bar-7{
+    background: linear-gradient(0deg, #ff34d2 30%, #9f6bff 100%);
+    animation-name: animation-bar-7;
+}
+
+@keyframes animation-bar-1{
+    0%{
+        height: 0px;
+    }20%{
+        height: 75px;
+    }40%{
+        height: 0px;
+    }
+}
+@keyframes animation-bar-2{
+    10%{
+        height: 0px;
+    }30%{
+        height: 75px;
+    }50%{
+        height: 0px;
+    }
+}
+@keyframes animation-bar-3{
+    20%{
+        height: 0px;
+    }40%{
+        height: 75px;
+    }60%{
+        height: 0px;
+    }
+}
+@keyframes animation-bar-4{
+    30%{
+        height: 0px;
+    }50%{
+        height: 75px;
+    }70%{
+        height: 0px;
+    }
+}
+@keyframes animation-bar-5{
+    40%{
+        height: 0px;
+    }60%{
+        height: 75px;
+    }80%{
+        height: 0px;
+    }
+}
+@keyframes animation-bar-6{
+    50%{
+        height: 0px;
+    }70%{
+        height: 75px;
+    }90%{
+        height: 0px;
+    }
+}
+@keyframes animation-bar-7{
+    60%{
+        height: 0px;
+    }75%{
+        height: 75px;
+    }100%{
+        height: 0px;
+    }
+}
+/*  */
+.overlay{
+    display: block;
+    opacity:0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+#produtos-cards .card:hover .overlay
+{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s ease;
+}
+.overlay a img{
+    background-color: #9671f1;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 5%;
+    margin-right: 100px;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.overlay .btn-secondary{
+    background: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+
+#produtos-cards h5{
+    font-size: 15px;
+}
+
+

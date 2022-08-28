@@ -1,0 +1,79 @@
+@keyframes bounce {
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+/* Menu */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#navMenu{
+    width: auto;
+    margin-block-end: 10px;
+}
+
+#mudarCor{
+    color: white;
+    transition: 0.5s ease;
+}
+#mudarCor:hover{
+    background-color: #9671f1;
+}
+/*main*/
+#nomeCarrinho{
+    text-align: center;
+    
+}
+#nomeDescricao{
+    margin-top: auto;
+    height: 78px;
+    width: 357px;
+    left: 740px;
+    top: 237px;
+}
+.divCompra{
+    margin-top: 170px;
+}
+#nomeDesconto{
+    margin-top: -20px;
+    color: green;
+}
+
+#logo{
+    position: absolute;
+    margin-left: 172px;
+    max-width: 90px;
+    margin-top: -39px;
+    
+}
+
+#nomeFreteGratis{
+    position: absolute;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    text-decoration-line: underline;
+    color: #000000;
+    opacity: 0.5;
+}
+#botaoCarrinho{
+    margin-top: 20px;
+    color: white;
+    background-color: #9671f1;
+    width: 350px;
+
+}
+#botaoCarrinho:hover{
+    animation: bounce 1s;
+}
+

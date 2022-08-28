@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MEtechnology</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+	<link href="headers.css" rel="stylesheet">
+	<link rel="icon" href="/Tela_Principal/Imagens/columns-gap.svg">
+
+</head>
+
+<body>
+	<!--Menu Primario-->
+	<nav id="navMenu" class="bg-dark border-bottom">
+
+		<div class="container d-flex flex-wrap">
+			<!--Janelas-->
+			<ul class="nav me-auto">
+				<li><a href="#clickVerProdutos" id="mudarCor" class="nav-link px-2 active">Produtos</a></li>
+				<li><a href="https://metechnology.medium.com/" id="mudarCor" target="__blank" class="nav-link px-2">Blog</a></li>
+				<li><a href="https://github.com/LuanME/--Projeto_Integrador--/blob/main/Sobre%20n%C3%B3s/Sobre%20n%C3%B3s.md"
+						id="mudarCor" target="__blank" class="nav-link  px-2">Sobre nós</a></li>
+				<li><a href="https://github.com/LuanME/--Projeto_Integrador--" id="mudarCor" target="__blank"
+						class="nav-link  px-2">GitHub</a></li>
+			</ul>
+
+			<!--Imagem login e Carrinho-->
+			<ul class="nav">
+				<!--Login-->
+				<li>
+					<a href="/Login/login.html" id="mudarCor" class="nav-link px-2">
+						<svg id="imagemlogin" xmlns="http://www.w3.org/2000/svg" width="22" height=""
+							fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+							<path
+								d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+						</svg>
+					</a>
+				</li>
+				<!--Carrinho-->
+
+				<li>
+					<a href="/Carrinho/carrinho.html" id="mudarCor" class="nav-link px-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor" class="bi bi-cart"
+							viewBox="0 0 16 16">
+							<path
+								d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+						</svg>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!--Menu Segundario-->
+
+	<header class="py-3 mb-4">
+		<br><br>
+		<div class="container d-flex flex-wrap justify-content-center">
+			<!--Imagem da Logo-->
+			<a href="/Tela_Principal/index.html"
+				class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+				<img id="logo" src="/Tela_Principal/Imagens/logo_branca.png">
+			</a>
+
+			<div class="search-box">
+				<input type="text" class="search-text" placeholder="Pesquisar">
+				<a href="#" class="search-btn">
+					<img src="/Tela_Principal/Imagens/lupa.svg" alt="lupa" height="17" width="17">
+				</a>
+			</div>
+
+
+		</div>
+	</header>
+
+	<!--Apesentação-->
+	<div class="apresentacao-container">
+		<hr id="controleHr">
+
+		<div id="divApresentacaoEmpresa" class="py-5 text-center ">
+			<h2 id="olaSejaBemVindo">Olá, Seja Bem-vindo(a)</h2>
+			<p class="lead">Somos uma empresa de tecnologia com o objetivo de oferecer ótimos preços!</p>
+			<em>Vamos às compras?
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+					class="bi bi-emoji-smile" viewBox="0 0 16 16">
+					<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+					 <path
+						d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z" />
+				</svg> 
+			</em>
+		</div>
+	</div>
+	<br id="clickVerProdutos">
+	<!--Janelas-->
+	<div>
+		<hr id="controleHr">
+		<nav class="navJanela">
+			<div class="container text-center">
+				<div class="row justify-content-md-center">
+					<div id="janelasNavegacao" class="col col-lg-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="25" fill="currentColor" class="bi bi-tablet"
+							viewBox="0 0 16 16">
+							<path
+								d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z" />
+							<path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+						</svg>
+						<a href="#clickSmartphones" class="nav-link px-4 active">Smartphones</a>
+					</div>
+					<div id="janelasNavegacao" class="col-md-auto">
+						<svg xmlns="http://www.w3.org/2000/svg" width="29" fill="currentColor" class="bi bi-laptop"
+							viewBox="0 0 16 16">
+							<path
+								d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
+						</svg>
+						<a href="#clickNotebooks" class="nav-link px-4">Notebooks</a>
+					</div>
+					<div id="janelasNavegacao" class="col col-lg-2">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" fill="currentColor"
+							class="bi bi-ui-checks-grid" viewBox="0 0 16 16">
+							<path
+								d="M2 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1zm9-9h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm0 9a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-3zm0-10a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2h-3zM2 9a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H2zm7 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2v-3zM0 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.354.854a.5.5 0 1 0-.708-.708L3 3.793l-.646-.647a.5.5 0 1 0-.708.708l1 1a.5.5 0 0 0 .708 0l2-2z" />
+						</svg>
+						<a href="#clickAcessorios" class="nav-link link px-4">Acessórios</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!--Apresentação dos Produtos-->
+	<div class="apresentacaoProduto">
+		<section class=" py-5 text-center container">
+			<div class="me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 p-3">
+					<h1 id="clickProdutos" class="fw-light">Produtos</h1>
+					<p class="lead text-muted">Logo abaixo estão listados todos os produtos e suas respectivas
+						categorias.<br>Para visualizar ou adicionar ao carrinho, basta clicar em um dos icones do produto selecionado</p>
+				    
+				</div>
+
+				<div class="efeito">
+					<span class="bar-1"></span>
+					<span class="bar-2"></span>
+					<span class="bar-3"></span>
+					<span class="bar-4"></span>
+					<span class="bar-5"></span>
+					<span class="bar-6"></span>
+					<span class="bar-7"></span>
+				</div>
+			</div>
+
+		</section>
+	</div>
+
+	<!--Produtos Smartphones-->
+	<div class="container" id="produtos-cards">
+		<br><br><br><br>
+		<h1 id="clickSmartphones" class="text-center">Smartphones</h1>
+		<div class="row" style="margin-top: 50px;">
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/Galaxy A13.jpg
+					" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a>
+
+						</button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">Galaxy A13</h3>
+						<div class="star text-center">
+							<h5>R$1560,00<span></span></h5>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/iphone-imagem.png" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">iPhone 13</h3>
+						<div class="star text-center">
+							<h5>R$5.749,00<span></span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/xiaomi-imagem.png" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">Xiaomi M12</h3>
+						<div class="star text-center">
+							<h5>R$5.699,00<span></span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/samsung-imagem.png" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">Samsung Galaxy S22 Ultra </h3>
+						<div class="star text-center">
+							<h5>R$9.859,00<span></span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Produtos Notebooks-->
+	<div class="container" id="produtos-cards">
+		<br><br><br><br>
+		<h1 id="clickNotebooks" class="text-center">Notebooks</h1>
+		<div class="row" style="margin-top: 50px;">
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/notebook-acer-imagem.png" alt="Notebook" width="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">Acer Aspire 3</h3>
+						<div class="star text-center">
+							<h5>R$2.879,00<span></span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/notebook-dell-imagem.png" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">Dell Inspiron 15</h3>
+						<div class="star text-center">
+							<h5>R$2.639,00<span></span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/notebook-samsung-imagem.png" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">Samsung NP550XDA-KV3BR</h3>
+						<div class="star text-center">
+							<h5>R$<span>2.639,00</span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/notebook-philco-imagem.png" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">Philco PNB14</h3>
+						<div class="star text-center">
+							<h5>R$1731,00<span></span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Produtos Acessorios-->
+	<div class="container" id="produtos-cards">
+		<br><br><br><br>
+		<h1 id="clickAcessorios" class="text-center">Acessórios</h1>
+		<div class="row" style="margin-top: 50px; align-items: center;">
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/Galaxy A13.jpg" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">Galaxy A13</h3>
+						<div class="star text-center">
+							<h5>R$1560,00<span></span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/Galaxy A13.jpg" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">Galaxy A13</h3>
+						<div class="star text-center">
+							<h5>R$1560,00<span></span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/Galaxy A13.jpg" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+					<div class="card-body">
+						<h3 class="text-center">Galaxy A13</h3>
+						<div class="star text-center">
+							<h5>R$1560,00<span></span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 py-3 py-md-0">
+				<div class="card">
+					<img src="/Tela_Principal/ProdutosImagens/Galaxy A13.jpg" alt="">
+					<div class="overlay">
+						<button type="button" class="btn btn-secondary" title="Quick Shop"><a
+								href="/Descrição_do_Produto/descricaoproduto.html "><img
+									src="/Tela_Principal/Imagens/olho.png" alt=""></a></button>
+						<button type="button" class="btn btn-secondary" title="Add to Cart"><a
+								href="/Carrinho/carrinho.html"><img src="/Tela_Principal/Imagens/add carts.png"
+									alt=""></a></button>
+					</div>
+
+					<div class="card-body">
+						<h3 class="text-center">Galaxy A13</h3>
+						<div class="star text-center">
+							<h5>R$1560,00<span></span></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Fooder-->
+	<div class="container">
+		<br><br><br><br>
+		<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+			<div class="col mb-3">
+				<img src="/Tela_Principal/Imagens/logo_branca.png">
+				<p class="text-muted">&copy; 2022</p>
+			</div>
+
+			<div class="col mb-3">
+
+			</div>
+
+			<div class="col mb-3">
+				<h5><a href="#clickProdutos" class="nav-link">Produtos</a></h5>
+				<ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#clickSmartphones"
+							class="nav-link p-0 text-muted">Smartphones</a></li>
+					<li class="nav-item mb-2"><a href="#clickNotebooks" class="nav-link p-0 text-muted">Notebooks</a>
+					</li>
+					<li class="nav-item mb-2"><a href="#clickAcessorios" class="nav-link p-0 text-muted">Acessórios</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col mb-3">
+				<h5>Sobre</h5>
+				<ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#" target="__blank" class="nav-link p-0 text-muted">Blóg</a></li>
+					<li class="nav-item mb-2"><a href="#" target="__blank" class="nav-link p-0 text-muted">Sobre nós</a>
+					</li>
+					<li class="nav-item mb-2"><a href="https://github.com/LuanME/--Projeto_Integrador--"
+							target="__blank" class="nav-link p-0 text-muted">GitHub</a></li>
+				</ul>
+			</div>
+
+			<div class="col mb-3">
+
+				<h5>Ajuda</h5>
+				<ul class="nav flex-column">
+					<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">metechnology@gmail.com</a>
+					</li>
+				</ul>
+
+			</div>
+		</footer>
+	</div>
+
+</body>
+
+</html>

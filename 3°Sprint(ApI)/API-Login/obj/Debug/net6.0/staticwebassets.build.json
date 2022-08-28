@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zztOLmbs3et4ZLMmoCbp7FqkKKrE+nBoivhXvRX94AU=",
+  "Source": "login.api.metech",
+  "BasePath": "_content/login.api.metech",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
