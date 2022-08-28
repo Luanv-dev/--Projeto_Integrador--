@@ -9689,19 +9689,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luans\\.nuget\\packages\\": {}
+    "C:\\Users\\beatrizp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luans\\source\\repos\\MEtechnology\\MEtechnology\\MEtechnology.csproj",
+      "projectUniqueName": "C:\\Users\\beatrizp\\Desktop\\--Projeto_Integrador--\\3°Sprint(ApI)\\MEtechnology\\MEtechnology.csproj",
       "projectName": "MEtechnology",
-      "projectPath": "C:\\Users\\luans\\source\\repos\\MEtechnology\\MEtechnology\\MEtechnology.csproj",
-      "packagesPath": "C:\\Users\\luans\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luans\\source\\repos\\MEtechnology\\MEtechnology\\obj\\",
+      "projectPath": "C:\\Users\\beatrizp\\Desktop\\--Projeto_Integrador--\\3°Sprint(ApI)\\MEtechnology\\MEtechnology.csproj",
+      "packagesPath": "C:\\Users\\beatrizp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\beatrizp\\Desktop\\--Projeto_Integrador--\\3°Sprint(ApI)\\MEtechnology\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\luans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\beatrizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9772,7 +9777,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
