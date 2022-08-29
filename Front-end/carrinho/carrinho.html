@@ -10,7 +10,7 @@
 		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 	<link href="carrinho.css" rel="stylesheet">
-	<link rel="icon" href="/Tela_Principal/Imagens/columns-gap.svg">
+	<link rel="icon" href="/Imagens/columns-gap.svg">
 </head>
 
 <body>
@@ -20,8 +20,8 @@
 		<div class="container d-flex flex-wrap">
 			<!--Janelas-->
 			<ul class="nav me-auto">
-				<li><a href="#" id="mudarCor" target="__blank" class="nav-link px-2">Blog</a></li>
-				<li><a href="#" id="mudarCor" target="__blank" class="nav-link  px-2">Sobre nós</a></li>
+				<li><a href="https://metechnology.medium.com/" id="mudarCor" target="__blank" class="nav-link px-2">Blog</a></li>
+				<li><a href="https://github.com/LuanME/--Projeto_Integrador--/blob/main/Sobre%20n%C3%B3s/Sobre%20n%C3%B3s.md" id="mudarCor" target="__blank" class="nav-link  px-2">Sobre nós</a></li>
 				<li><a href="https://github.com/LuanME/--Projeto_Integrador--" id="mudarCor" target="__blank"
 						class="nav-link  px-2">GitHub</a></li>
 			</ul>
@@ -37,18 +37,7 @@
 								d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
 						</svg>
 					</a>
-				</li>
-				<!--Carrinho-->
-
-				<li>
-					<a href="/Carrinho/carrinho.html" id="mudarCor" class="nav-link px-2">
-						<svg xmlns="http://www.w3.org/2000/svg" width="20" fill="currentColor" class="bi bi-cart"
-							viewBox="0 0 16 16">
-							<path
-								d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-						</svg>
-					</a>
-				</li>
+				</li>	
 			</ul>
 		</div>
 	</nav>
@@ -56,9 +45,9 @@
 	<header class="py-3 mb-4">
 		<div class="container d-flex flex-wrap justify-content-center">
 			<!--Imagem da Logo-->
-			<a href="/Tela_Principal/index.html"
+			<a href="/index.html"
 				class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
-				<img src="/Tela_Principal/Imagens/logo_branca.png">
+				<img src="/Imagens/logo_branca.png">
 			</a>
 			<h1 id="nomeCarrinho" class="lead text-muted">Carrinho</h1>
 
@@ -76,7 +65,7 @@
 				<!-- Cada Produto -->
 				<div class="row ">
 					<div class="col-auto">
-						<img src="/Tela_Principal/ProdutosImagens/Galaxy A13.jpg" alt="Galaxy" width="140">
+						<img src="/ProdutosImagens/Galaxy A13.jpg" alt="Galaxy" width="140">
 					</div>
 					<div id="carrinhoDescricao" class="col">
 						<div class="row">
@@ -100,6 +89,60 @@
 					</div>
 				</div>
 				<hr>
+				<div class="row ">
+					<div class="col-auto">
+						<img src="/ProdutosImagens/notebook-dell-imagem.png" alt="Galaxy" width="140">
+					</div>
+					<div id="carrinhoDescricao" class="col">
+						<div class="row">
+							<div class="col">
+								<p id="nomeProduto">Dell Inspiron 15</p>
+							</div>
+							<div class="col">
+								<button id="excluir">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+										<path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+										<path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+									  </svg>
+								</button>
+							</div>
+							<!-- Configuração -->
+							<p id="configuracaoProduto">Configuração escolhida</p>
+							<p id="quantidadeProduto">Quantidade: 1</p>
+							<p id="precoProduto">R$2.639,00</p>
+
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="row ">
+					<div class="col-auto">
+						<img src="/ProdutosImagens/iphone-imagem.png" alt="Galaxy" width="140">
+					</div>
+					<div id="carrinhoDescricao" class="col">
+						<div class="row">
+							<div class="col">
+								<p id="nomeProduto">iPhone 13</p>
+							</div>
+							<div class="col">
+								<button id="excluir">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+										<path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+										<path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+									  </svg>
+								</button>
+							</div>
+							<!-- Configuração -->
+							<p id="configuracaoProduto">Configuração escolhida</p>
+							<p id="quantidadeProduto">Quantidade: 1</p>
+							<p id="precoProduto">R$5.749,00</p>
+
+						</div>
+					</div>
+				</div>
+
+
+				<hr>
 				<!-- Fim de Cada Produto -->
                 
 			</div>
@@ -109,13 +152,13 @@
 				<div id="divRow"class="row">
 					<div id="divConteudoResumo" class="row">
 						<div class="col">
-							<p>Total: </p>
+							<p>Total: <strong> R$9.888</strong> </p>
 						</div>
 						
 					</div>
 					<div class="d-grid gap-2">
-						<a id="botaoComprar" class="btn" href="#" role="button">Comprar</a>
-						<img id = imagem src="/Carrinho/Imagem1.png" alt="desenhoCarrinho" width="260">
+						<a id="botaoComprar" class="btn" href="/carrinho/compra.html" role="button">Comprar</a>
+						<img id = imagem src="/carrinho/Imagem1.png" alt="desenhoCarrinho" width="260">
 					</div>
 				</div>
 
